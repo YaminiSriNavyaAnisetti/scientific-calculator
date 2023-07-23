@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <center>
+    <div class="main-container">
+        <h1 style="text-align: start; margin-left:5px;">CASIO</h1>
+        <h3 style="text-align: start; margin-left:5px;">fx-99IMS</h3>
+        <div id="result" ></div>
+        <button id="ac" onclick="clearResult()">AC</button>
+        <button id="del" onclick="deleteLast()">DEL</button>
+        <button id="on" onclick="on()">ON</button>
+        <button id="off" onclick="off()">OFF</button>
+        <div class="tri">
+        <button id="sin" onclick="store('sin')">sin</button>
+        <button id="cos" onclick="store('cos')">cos</button>
+        <button id="tan" onclick="store('tan')">tan</button>
+        <button id="hyp" onclick="e()">e<sup>x</sup></button>
+        <button id="asin" onclick="store('asin')">asin</button>
+        <button id="acos" onclick="store('acos')">acos</button>
+        <button id="atan" onclick="store('atan')">atan</button>
+        <button id="log" onclick="store('log10')">log</button>
+        <button id="ln" onclick="store('log')">ln</button>
+        <button id="ln" onclick="store('π')">π</button>
+        <button id="ln" onclick="store('^')">^</button>
+        <button id="x2" onclick="inv()">x<sup>-1</sup></button>
+        <button id="x2" onclick="x2()">x<sup>2</sup></button>
+        <button id="x3" onclick="x3()">x<sup>3</sup></button>
+        <button id="acos" onclick="store('(')">(</button>
+        <button id="atan" onclick="store(')')">)</button>
+        <button id="acos" onclick="store('sqrt')">√</button>
+        <button id="atan" onclick="store('cbrt')">∛</button>
+        <button id="sin" onclick="store('sinh')">sinh</button>
+        <button id="cos" onclick="store('cosh')">cosh</button>
+        <button id="tan" onclick="store('tanh')">tanh</button>
+        <button id="hyp" onclick="store('abs')">abs</button>
+        <button id="asin" onclick="store('floor')">floor</button>
+        <button id="asin" onclick="store('ceil')">ceil</button>
+       </div>
+       <div>
+        <button id="bt" onclick="store(7)">7</button>
+        <button id="bt" onclick="store(8)">8</button>
+        <button id="bt" onclick="store(9)">9</button>
+        <button id="bt" onclick="store('%')">%</button>
+        <button id="bt" onclick="store('^')">^</button>
+        <button id="bt" onclick="store(4)">4</button>
+        <button id="bt" onclick="store(5)">5</button>
+        <button id="bt" onclick="store(6)">6</button>
+        <button id="bt" onclick="store('*')">*</button>
+        <button id="bt" onclick="store('/')">/</button>
+        <button id="bt" onclick="store(1)">1</button>
+        <button id="bt" onclick="store(2)">2</button>
+        <button id="bt" onclick="store(3)">3</button>
+        <button id="bt" onclick="store('+')">+</button>
+        <button id="bt" onclick="store('-')">-</button>
+        <button id="bt" onclick="store(0)">0</button>
+        <button id="bt" onclick="store('.')">.</button>
+        <button id="bt" onclick="exp()">exp</button>
+        <button id="bt" onclick="store(',')">,</button>
+        <button id="bt" onclick="store('=')">=</button>
+
+       </div>
+    </div>
+    </center> 
+    <script src="./script.js"></script>  
+</body>
+</html>
